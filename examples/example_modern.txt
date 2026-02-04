@@ -1,0 +1,47 @@
+Resources in use
+CIFS Session: 1
+Share (unique mount targets): 2
+SMB Request/Response Buffer: 1 Pool size: 5
+SMB Small Req/Resp Buffer: 1 Pool size: 30
+Operations (MIDs): 0
+
+0 session 0 share reconnects
+Total vfs operations: 16 maximum at one time: 2
+
+1) \\smb157.boreal-system.svc.cluster.local\Ddrive$
+SMBs: 195697
+Bytes read: 3407203268  Bytes written: 1908651680
+Open files: 12 total (local), 0 open on server
+TreeConnects: 1709 total 0 failed
+TreeDisconnects: 5 total 0 failed
+Creates: 100 total 2 failed
+Closes: 98 total 0 failed
+Flushes: 10 total 0 failed
+Reads: 5000 total 5 failed
+Writes: 3000 total 3 failed
+Locks: 50 total 0 failed
+IOCTLs: 25 total 0 failed
+QueryDirectories: 200 total 0 failed
+ChangeNotifies: 15 total 0 failed
+QueryInfos: 1000 total 0 failed
+SetInfos: 500 total 0 failed
+OplockBreaks: 4 sent 4 failed
+
+2) \\fileserver.example.com\Share1 CONNECTED
+SMBs: 50000
+Bytes read: 1234567890  Bytes written: 987654321
+Open files: 5 total (local), 3 open on server
+TreeConnects: 500 total 0 failed
+TreeDisconnects: 2 total 0 failed
+Creates: 50 total 0 failed
+Closes: 48 total 0 failed
+Flushes: 5 total 0 failed
+Reads: 2500 total 0 failed
+Writes: 1500 total 0 failed
+Locks: 25 total 0 failed
+IOCTLs: 10 total 0 failed
+QueryDirectories: 100 total 0 failed
+ChangeNotifies: 8 total 0 failed
+QueryInfos: 500 total 0 failed
+SetInfos: 250 total 0 failed
+OplockBreaks: 0 sent 0 failed
